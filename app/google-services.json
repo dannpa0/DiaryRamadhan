@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222546800422",
+    "firebase_url": "https://diary-ramadhan.firebaseio.com",
+    "project_id": "diary-ramadhan",
+    "storage_bucket": "diary-ramadhan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222546800422:android:423191686d69b094",
+        "android_client_info": {
+          "package_name": "com.dev.rahayu.diaryramadhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222546800422-ipfsfn69tk02sccodpdb1u8nlg6vchfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.rahayu.diaryramadhan",
+            "certificate_hash": "972071407711fdefea964a9291d045995818b2b4"
+          }
+        },
+        {
+          "client_id": "222546800422-oiepp2688cghbt96hmdc60ssvvuqjtif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyuvtw_Oq-0euFXl1ZHsDoBGAMSj0sVAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222546800422-oiepp2688cghbt96hmdc60ssvvuqjtif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
