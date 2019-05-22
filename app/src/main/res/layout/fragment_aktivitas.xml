@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_fragment_aktivitas"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="8dp"
+        app:menu="@menu/menu_fragement_aktivitas"
+        android:theme="@style/MyActionBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view_fragment_aktivitas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <!--<android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="8dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        />-->
-</RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_no_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak ada aktivitas"
+            android:textSize="17sp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

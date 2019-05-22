@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card_home_tips"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    card_view:cardBackgroundColor="#E6E6E6"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/card_home_tips_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/card_home_tips_desc"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tips 1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/card_home_tips_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/tips_1_ramadhan" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
